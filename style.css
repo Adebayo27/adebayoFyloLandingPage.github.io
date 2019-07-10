@@ -217,7 +217,7 @@ footer{
 		transform: translate(0);
 	}
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 480px){
 	body{
 		width: 375px;
 		max-width: 480px;
@@ -238,9 +238,9 @@ footer{
 	.ic{
 		display: block;
 		float: right;
+		margin-right: 10vw;
 	}
 	
-
 	.row-flex{
 		display: flex;
 		flex-direction: column;
