@@ -230,10 +230,13 @@ footer{
 	}
 	.nav-bar{
 		padding: 0;
-		/*display: block;*/
 	}
-	.nav-bar #links{
-			display: none;
+	.left img{
+		margin-left: 5px;
+		width: 40%;
+	}
+	.nav-bar .right{
+		display: none;
 	}
 	.ic{
 		display: block;
@@ -282,11 +285,18 @@ footer{
 	}
 	.next3{
 		margin-top: 80em;
-		margin-left: 5em;
+		margin-left: 3em;
 	}
 	.flex3, .flex4{
 		margin-left: 0;
 		width: 100%;
+	}
+	.flex4 h1{
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.flex4{
+
 	}
 	.flex3 img{
 		margin-left: 0;
@@ -307,26 +317,26 @@ footer{
 		grid-gap: .5rem; 
 	}
 	.footer-grid{
-	display: grid;
-	grid-template-columns: 300px;
-	grid-gap: 10px;
-}
-.footer-logo{
-	margin-left: 0;
-}
-.footer-logo img{
-	margin-top: 160px;
-	margin-left: 10px;
-}
-.grid1, .grid2,  .grid3, .grid4, .grid5{
-	margin-left: 0;
-}
-.grid3 ul li, .grid4 ul li, .grid5 ul li{
-	list-style: none;
-	line-height: 30px;
-	margin-left: 0;
-}
-.n1 img{
-	margin-top: 18px;
-	margin-right: 15px;
-}
+		display: grid;
+		grid-template-columns: 300px;
+		grid-gap: 10px;
+	}
+	.footer-logo{
+		margin-left: 0;
+	}
+	.footer-logo img{
+		margin-top: 160px;
+		margin-left: 10px;
+	}
+	.grid1, .grid2,  .grid3, .grid4, .grid5{
+		margin-left: 0;
+	}
+	.grid3 ul li, .grid4 ul li, .grid5 ul li{
+		list-style: none;
+		line-height: 30px;
+		margin-left: 0;
+	}
+	.n1 img{
+		margin-top: 18px;
+		margin-right: 15px;
+	}
